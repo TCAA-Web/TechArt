@@ -2,17 +2,24 @@
 #switch {
   grid-area: s1;
   text-align: end;
-  font-size: $font-medium;
   position: relative;
   top: 20vh;
   cursor: pointer;
   height: fit-content;
   width: fit-content;
   left: 5vw;
+  font-size: $font-medium;
+  transition: color 0.2s ease;
+
   @media screen and (max-width: 1450px) {
     left: 0;
   }
   @media screen and (max-height: 850px) {
     top: 25vh;
   }
+  color: $color_brown_dark;
+}
+
+#switch:hover {
+  color: $color_brown_light;
 }

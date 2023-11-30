@@ -8,10 +8,14 @@
   position: relative;
   left: 3dvw;
   bottom: 5dvh;
+  transition: color 0.2s ease;
   a {
     text-decoration: none;
     font-size: $font-small * 0.9;
     padding: $spacing-small * 0.5;
     color: $color_black;
+  }
+  a:hover {
+    color: $color_brown_light;
   }
 }

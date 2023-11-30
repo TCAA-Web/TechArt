@@ -11,6 +11,10 @@
       font-size: 3rem;
       margin-top: 10px;
       color: $color_brown_dark;
+      transition: color 0.2s ease;
+    }
+    i:hover {
+      color: $color_brown_light;
     }
   }
   grid-area: h1;

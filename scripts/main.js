@@ -12,6 +12,10 @@ function createNav() {
     let link = document.createElement("a");
     link.href = "details.html#" + index;
     link.innerText = item.name;
+    if (location.href.includes("#" + index)) {
+      link.style.color = "#5b4132";
+      link.style.textDecoration = "underline";
+    }
     nav.append(link);
   });
 
