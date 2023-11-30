@@ -44,6 +44,7 @@ function createDetails() {
 
     // Create switch image listener
     let switchElement = document.getElementById("switch");
+    switchElement.innerText = "se original";
     switchElement.addEventListener("click", () => {
       let canvas = document.querySelector(".p5Canvas");
       let img = document.querySelector("#og_img");
@@ -51,11 +52,11 @@ function createDetails() {
       if (canvas.style.display == "block") {
         canvas.style.display = "none";
         img.style.display = "block";
-        switchElement.innerText = "Se nyfortolkning";
+        switchElement.innerText = "se nyfortolkning";
       } else {
         canvas.style.display = "block";
         img.style.display = "none";
-        switchElement.innerText = "Se original";
+        switchElement.innerText = "se original";
       }
     });
 
@@ -87,9 +88,10 @@ function createGallery() {
 }
 
 createNav();
-createDetails();
 
 // if frontpage - create gallery
 if (!location.href.includes("details")) {
   createGallery();
+} else {
+  createDetails();
 }
