@@ -1,0 +1,9 @@
+// This is the styling of the page.
+// Creates a stylesheet depending on which components we include here
+
+@use "../components/lines";
+@use "../components/nav";
+@use "../components/mainGrid";
+@use "../components/title";
+@use "../components/gallery";
+@use "../components/footer";

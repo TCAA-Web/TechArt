@@ -1,0 +1,24 @@
+@use "../helpers/functions" as *; // doing @use <name> as * will import the file with no namespace.
+
+// Mixin to reset padding and margin
+@mixin reset() {
+  margin: 0;
+  padding: 0;
+}
+
+// Mixin for setting background image - takes a variable $image and appends it to "root" path of url
+@mixin image($image, $height) {
+  background-image: url($image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: $height;
+  width: 100%;
+}
+
+// Theme styling mixin. Takes "theme" which is a string and sets bg-color and color
+@mixin theme($theme) {
+  background-color: getThemeColor($theme);
+  color: invertColor(getThemeColor($theme));
+  border-color: invertColor(getThemeColor($theme));
+}

@@ -1,0 +1,20 @@
+@use "../helpers/variables" as *;
+#lines {
+  span:nth-child(1) {
+    border: solid 8px $color_brown_light;
+    width: 40vw;
+    position: absolute;
+    left: 33dvw;
+    top: 15%;
+    /*   @media screen and (max-height: 830px) {
+      left: 32%;
+    } */
+  }
+  span:nth-child(2) {
+    position: absolute;
+    left: 73dvw;
+    top: 5%;
+    height: 90vh;
+    border: solid 8px $color_brown_light;
+  }
+}

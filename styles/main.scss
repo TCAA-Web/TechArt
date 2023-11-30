@@ -1,0 +1,21 @@
+// The only file to include in your HTML is the compiled version of this (main.css)
+@use "./pages/home.scss"; // all styling is created from this page file
+@use "./pages/details";
+@use "./theme/theme"; // use theme on all pages
+@use "./helpers/variables" as *;
+// Google font Karma som default.
+@import url("https://fonts.googleapis.com/css2?family=Karma&display=swap");
+
+// Global styling for body
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: $color_background;
+}
+* {
+  font-family: "Karma", sans-serif;
+  margin: 0;
+  padding: 0;
+}

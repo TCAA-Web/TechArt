@@ -1,0 +1,18 @@
+@use "../helpers/variables" as *; // doing @use <name> as * will import the file with no namespace.
+
+// Invert function that takes a color (RGB, HEX, Hsl and inverts that color) - works best for black/white colors
+@function invertColor($color) {
+  $invertedColor: invert($color);
+  @return $invertedColor;
+}
+
+// Returns the corrosponding theme color if passed either "dark" or "light" as a string
+@function getThemeColor($theme) {
+  @if $theme == dark {
+    $color: $color_dark;
+    @return $color;
+  } @else if $theme == light {
+    $color: $color_light;
+    @return $color;
+  }
+}

@@ -1,0 +1,15 @@
+@use "../helpers/variables" as *;
+
+#footer {
+  width: 100%;
+  display: grid;
+  grid-area: f1;
+  align-items: end;
+  justify-content: end;
+
+  p {
+    margin-right: $spacing-large;
+    margin-bottom: $spacing-large;
+    font-size: 2rem;
+  }
+}

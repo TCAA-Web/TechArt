@@ -1,0 +1,16 @@
+// Mixin that applies basic centering of elements
+@mixin positionSelfCenter {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+}
+@mixin positionSelfLeft {
+  display: grid;
+  justify-self: start;
+  align-self: center;
+}
+@mixin positionSelfRight {
+  display: grid;
+  justify-self: end;
+  align-self: center;
+}

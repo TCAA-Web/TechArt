@@ -1,0 +1,15 @@
+#mainContainer {
+  display: grid;
+  width: 95%;
+  margin: auto;
+  gap: 2%;
+  grid-template-areas:
+    " . h1 h1 h1 h1 . "
+    " . g1 g1 g1 nav nav "
+    " . g1 g1 g1 nav nav "
+    " . g1 g1 g1 nav nav "
+    " f1 f1 f1 f1 f1 f1 ";
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}

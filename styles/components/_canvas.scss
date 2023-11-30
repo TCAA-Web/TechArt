@@ -1,0 +1,61 @@
+@use "../helpers/variables" as *;
+
+#canvasContainer {
+  grid-area: c1;
+  width: min-content;
+  z-index: 2;
+  #og_img {
+    display: none;
+    width: 760px !important;
+    height: 490px !important;
+    margin-top: 2dvh;
+    border: solid 8px $color_brown_light;
+    margin-left: 1dvw;
+    align-self: start;
+    justify-self: center;
+    @media screen and (max-width: 1650px) {
+      width: 680px !important;
+      height: 466px !important;
+      margin-left: 0;
+      margin-right: 2vw;
+    }
+    @media screen and (max-width: 1450px) {
+      width: 630px !important;
+      height: 390px !important;
+      margin-right: 4vw;
+    }
+    @media screen and (max-width: 1250px) {
+      width: 550px !important;
+      height: 360px !important;
+      margin-right: 5vw;
+    }
+  }
+
+  .p5Canvas {
+    display: block;
+    width: 760px !important;
+    height: 490px !important;
+    margin-top: 2dvh;
+    border: solid 8px $color_brown_light;
+    margin-left: 1dvw;
+    align-self: start;
+    justify-self: center;
+
+    @media screen and (max-width: 1650px) {
+      width: 680px !important;
+      height: 466px !important;
+      margin-left: 0;
+      margin-right: 2vw;
+    }
+    @media screen and (max-width: 1450px) {
+      width: 630px !important;
+      height: 390px !important;
+      margin-right: 4vw;
+    }
+    @media screen and (max-width: 1250px) {
+      width: 550px !important;
+      height: 360px !important;
+      margin-right: 5vw;
+    }
+  }
+}

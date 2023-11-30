@@ -1,0 +1,21 @@
+@use "../helpers/variables" as *;
+#nav {
+  display: grid;
+  grid-area: nav;
+  line-height: 1;
+  align-self: start;
+  justify-self: start;
+  position: relative;
+  left: 3dvw;
+  bottom: 5dvh;
+  a {
+    text-decoration: none;
+    font-size: $font-small * 0.9;
+    padding: $spacing-small * 0.5;
+    color: $color_black;
+  }
+
+  @media screen and (max-width: 1450px) {
+    left: 0;
+  }
+}

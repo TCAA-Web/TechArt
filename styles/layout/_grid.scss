@@ -1,0 +1,8 @@
+// Mixin that takes number of columns and gapSize as variables
+@mixin gridLayout($numberOfCols: 4, $gapSize: 8px) {
+  display: grid;
+  grid-template-columns: repeat($numberOfCols, 1fr);
+  gap: $gapSize;
+  justify-content: center;
+  align-items: center;
+}

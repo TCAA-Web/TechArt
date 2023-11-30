@@ -1,0 +1,23 @@
+@use "../helpers/variables" as *;
+
+#textContainer {
+  position: relative;
+  grid-area: c1;
+  div {
+    width: 12vw;
+    position: absolute;
+    top: 23vh;
+    min-height: 45vh;
+    color: white;
+    padding: 32px;
+    padding-right: 7vw;
+    right: 86%;
+    background-color: $color_brown_dark;
+    @media screen and (max-width: 1450px) {
+      padding-right: 9dvw;
+    }
+    p {
+      font-size: $font-small * 0.8;
+    }
+  }
+}

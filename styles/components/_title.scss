@@ -1,0 +1,36 @@
+@use "../helpers/variables" as *;
+#titleContainer {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  justify-content: center;
+  align-items: center;
+  a {
+    justify-self: end;
+    margin-right: 1dvw;
+    i {
+      font-size: 3rem;
+      margin-top: 10px;
+      color: $color_brown_dark;
+    }
+  }
+  grid-area: h1;
+  #title {
+    font-size: $font-large;
+    margin-top: 6vh;
+    color: $color_brown_dark;
+    font-weight: 400;
+    //margin-left: 5vw;
+    height: 120px;
+  }
+}
+
+#titleMain {
+  margin-left: 10dvw;
+  grid-area: h1;
+  font-size: $font-large;
+  margin-top: 6vh;
+  color: $color_brown_dark;
+  font-weight: 400;
+  //margin-left: 5vw;
+  height: 120px;
+}
