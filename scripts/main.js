@@ -90,6 +90,6 @@ createNav();
 createDetails();
 
 // if frontpage - create gallery
-if (location.href.includes("index")) {
+if (!location.href.includes("details")) {
   createGallery();
 }

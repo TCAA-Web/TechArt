@@ -33,11 +33,6 @@
   padding: 4px;
   color: #1e1e1e;
 }
-@media screen and (max-width: 1450px) {
-  #nav {
-    left: 0;
-  }
-}
 
 #mainContainer {
   display: grid;
