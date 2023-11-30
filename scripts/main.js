@@ -80,6 +80,8 @@ function createGallery() {
       img.alt = item.name;
       a.append(img);
       galleryContainer.append(a);
+    } else {
+      console.error("Cant find any images");
     }
   });
 }
