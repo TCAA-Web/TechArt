@@ -18,3 +18,9 @@
     border: solid 8px $color_brown_light;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  #lines {
+    display: none;
+  }
+}

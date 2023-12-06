@@ -17,6 +17,11 @@
   border: solid 8px #978171;
 }
 
+@media screen and (max-width: 1000px) {
+  #lines {
+    display: none;
+  }
+}
 #nav {
   display: grid;
   grid-area: nav;
@@ -38,6 +43,11 @@
   color: #978171;
 }
 
+@media screen and (max-width: 1000px) {
+  #nav {
+    display: none;
+  }
+}
 #mainContainer {
   display: grid;
   width: 95%;
@@ -49,6 +59,14 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
+@media screen and (max-width: 1000px) {
+  #mainContainer {
+    grid-template-areas: "h1" "g1" "f1";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 8px;
+  }
+}
 #titleContainer {
   display: grid;
   grid-template-columns: 1fr 6fr;
@@ -87,6 +105,22 @@
   height: 120px;
 }
 
+@media screen and (max-width: 1000px) {
+  #titleContainer #title {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  #titleContainer #title {
+    width: 100%;
+    margin: auto;
+    font-size: 2.2rem;
+    height: auto;
+    margin-top: 16px;
+    text-align: center;
+  }
+}
 #gallery {
   grid-area: g1;
   display: grid;
@@ -105,6 +139,14 @@
   opacity: 0.75;
 }
 
+@media screen and (max-width: 1000px) {
+  #gallery {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    width: 100%;
+    margin-top: 2%;
+  }
+}
 #footer {
   width: 100%;
   display: grid;
@@ -123,6 +165,12 @@
   width: -moz-min-content;
   width: min-content;
   z-index: 2;
+}
+@media screen and (max-width: 1000px) {
+  #canvasContainer {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }
 #canvasContainer #og_img {
   display: none;
@@ -154,6 +202,24 @@
     width: 550px !important;
     height: 360px !important;
     margin-right: 5vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #canvasContainer #og_img {
+    display: none;
+    width: 100% !important;
+    height: 200px !important;
+    position: relative;
+  }
+}
+@media screen and (max-width: 800px) {
+  #canvasContainer #og_img {
+    display: none;
+    width: 100% !important;
+    height: auto !important;
+    position: relative;
+    margin: auto;
+    border: none;
   }
 }
 #canvasContainer .p5Canvas {
@@ -188,6 +254,20 @@
     margin-right: 5vw;
   }
 }
+@media screen and (max-width: 1000px) {
+  #canvasContainer .p5Canvas {
+    display: block;
+    width: 100% !important;
+    position: relative;
+  }
+}
+@media screen and (max-width: 800px) {
+  #canvasContainer .p5Canvas {
+    height: auto !important;
+    margin: auto;
+    border: none;
+  }
+}
 
 #detailsContainer {
   display: grid;
@@ -200,6 +280,15 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
+@media screen and (max-width: 1000px) {
+  #detailsContainer {
+    grid-template-areas: "h1" "c1" "s1" "t1" "f1";
+    min-height: 100vh;
+    gap: 8px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
 #textContainer {
   position: relative;
   grid-area: c1;
@@ -224,6 +313,38 @@
   font-size: 0.8rem;
 }
 
+@media screen and (max-width: 1000px) {
+  #textContainer {
+    display: grid;
+    width: 100%;
+    grid-area: t1;
+  }
+  #textContainer div {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  #textContainer {
+    display: grid;
+    width: 100%;
+    grid-area: t1;
+  }
+  #textContainer div {
+    min-height: 30vh;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: auto;
+    padding: 0;
+  }
+  #textContainer div p {
+    padding: 8px;
+  }
+}
 #switch {
   grid-area: s1;
   text-align: end;
@@ -247,6 +368,14 @@
 @media screen and (max-height: 850px) {
   #switch {
     top: 25vh;
+  }
+}
+@media screen and (max-height: 800px) {
+  #switch {
+    top: 0;
+    left: 0;
+    margin: auto;
+    text-align: end;
   }
 }
 

@@ -38,3 +38,19 @@
   //margin-left: 5vw;
   height: 120px;
 }
+@media screen and (max-width: 1000px) {
+  #titleContainer #title {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  #titleContainer #title {
+    width: 100%;
+    margin: auto;
+    font-size: 2.2rem;
+    height: auto;
+    margin-top: 16px;
+    text-align: center;
+  }
+}

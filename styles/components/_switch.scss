@@ -17,6 +17,12 @@
   @media screen and (max-height: 850px) {
     top: 25vh;
   }
+  @media screen and (max-height: 800px) {
+    top: 0;
+    left: 0;
+    margin: auto;
+    text-align: end;
+  }
   color: $color_brown_dark;
 }
 

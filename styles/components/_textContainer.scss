@@ -21,3 +21,36 @@
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  #textContainer {
+    display: grid;
+    width: 100%;
+    grid-area: t1;
+    div {
+      width: 100%;
+      position: relative;
+      left: 0;
+      top: 0;
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  #textContainer {
+    display: grid;
+    width: 100%;
+    grid-area: t1;
+    div {
+      min-height: 30vh;
+      width: 100%;
+      position: relative;
+      left: 0;
+      top: 0;
+      margin: auto;
+      padding: 0;
+      p {
+        padding: $spacing-small;
+      }
+    }
+  }
+}

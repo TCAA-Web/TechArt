@@ -13,3 +13,18 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
+@media screen and (max-width: 1000px) {
+  #detailsContainer {
+    grid-template-areas:
+      "h1"
+      "c1"
+      "s1"
+      "t1"
+      "f1";
+
+    min-height: 100vh;
+    gap: 8px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
