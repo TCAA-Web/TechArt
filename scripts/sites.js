@@ -69,7 +69,7 @@ export const sites = [
     og_img_file_name: "urban_serenity_original.jpg",
     mod_img_file_name: "urban_serenity_art.PNG",
   },
-  { name: "Celestial Rhapsody" },
+  /*   { name: "Celestial Rhapsody" },
   { name: "Ripples of Resilience" },
   { name: "Echoes of Eternity" },
   { name: "Chromatic Dreamscape" },
@@ -88,5 +88,5 @@ export const sites = [
   { name: "Mystical Melancholy" },
   { name: "Sculpted Silence" },
   { name: "Dance of the Cosmos" },
-  { name: "Abstract Elegance" },
+  { name: "Abstract Elegance" }, */
 ];
