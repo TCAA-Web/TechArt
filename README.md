@@ -5,3 +5,4 @@ I dette projekt er det meningen at du skal oploade dit kunstværk til dette repo
 ### Guide:
 
 1: Start med at "forke" dette repository.
+// Test test
