@@ -7,7 +7,7 @@ export const sites = [
     mod_img_file_name: "urban_serenity_art.PNG",
   },
   {
-    name: "New Art",
+    name: "New ArtWork",
     text: "New art description here",
     js_file_name: "urban_serenity.js",
     og_img_file_name: "urban_serenity_original.jpg",
