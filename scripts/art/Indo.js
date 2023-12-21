@@ -4,6 +4,7 @@ let particles = [];
 
 const PARTICLE_SIZE = 15;
 const RESOLUTION = 20;
+const easing = 0.1;
 
 function preload() {
     img = loadImage("../../assets/krig2_original.jpg");
@@ -46,10 +47,27 @@ class Particle {
         this.y = y - height / 2;
         this.z = 0;
         this.color = color;
+        this.originalX = this.x; // Store the original positions
+        this.originalY = this.y;
     }
 
     update() {
-
+        // Example: Change particle color when the mouse is clicked
+        if (mouseIsPressed) {
+            // Example: Move particles away from the mouse cursor
+            let distanceToMouse = dist(this.x, this.y, mouseX - width / 2, mouseY - height / 2);
+            if (distanceToMouse < 50) {
+                let force = createVector(this.x - mouseX + width / 2, this.y - mouseY + height / 2);
+                force.normalize();
+                force.mult(2);
+                this.x += force.x;
+                this.y += force.y;
+            }        
+        } else {
+            // Smoothly revert back to original positions
+            this.x += (this.originalX - this.x) * easing;
+            this.y += (this.originalY - this.y) * easing;            
+        }
     }
 
     draw() {
