@@ -49,7 +49,7 @@ class Particle {
     }
 
     update() {
-  
+
     }
 
     draw() {
