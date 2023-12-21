@@ -4,7 +4,7 @@ let particles = [];
 
 const PARTICLE_SIZE = 15;
 const RESOLUTION = 20;
-const easing = 0.1;
+const easing = 0.01;
 
 function preload() {
     img = loadImage("../../assets/krig2_original.jpg");
@@ -59,7 +59,7 @@ class Particle {
             if (distanceToMouse < 50) {
                 let force = createVector(this.x - mouseX + width / 2, this.y - mouseY + height / 2);
                 force.normalize();
-                force.mult(2);
+                force.mult(10);
                 this.x += force.x;
                 this.y += force.y;
             }        
