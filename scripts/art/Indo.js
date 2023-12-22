@@ -88,6 +88,12 @@ class Particle {
             this.x += (this.originalX - this.x) * easing;
             this.y += (this.originalY - this.y) * easing;            
         }
+
+        // Check if the particle has moved off the screen, and reset its position
+        if (this.x < -width / 2 || this.x > width / 2 || this.y < -height / 2 || this.y > height / 2) {
+            this.x = this.originalX;
+            this.y = this.originalY;
+        }        
     }
 
     draw() {
