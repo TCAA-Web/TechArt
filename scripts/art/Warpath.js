@@ -3,7 +3,7 @@ let img;
 let particles = [];
 
 const PARTICLE_SIZE = 15;
-const RESOLUTION = 25;
+const RESOLUTION = 20;
 const easing = 0.01;
 
 function preload() {
@@ -25,6 +25,21 @@ function draw() {
     background(0);
     // rotateY(frameCount * 0.01);
     // image(img, 0, 0);
+
+    // Drawing image behind particles
+    // drawing random sheit
+    let glowSize = 200;
+    let glowColor = color(253, 184, 19, 200);
+    fill(glowColor);
+    noStroke();
+    // ellipse(0, 0, glowSize); // centered
+    /* ellipse(-width / 4, -height / 4, glowSize);
+    ellipse(width / 4, -height / 4, glowSize); */
+    ellipse(-width / 4, height / 4, glowSize);
+    // ellipse(0, height / 4, glowSize);
+    ellipse(width / 4, height / 4, glowSize);
+    
+    
     // Update and draw each particle
     particles.forEach((particle) => {
         particle.update();
@@ -37,8 +52,8 @@ function spawnParticles() {
     for (let i = 0; i < width; i += RESOLUTION) {
         for (let j = 0; j < height; j += RESOLUTION) {
             // Map particle positions to image coordinates
-            let x = i / width * img.width
-            let y = j / height * img.height
+            let x = i / width * img.width;
+            let y = j / height * img.height;
 
             // Get color from image at current position
             const color = img.get(x, y);

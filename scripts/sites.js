@@ -14,9 +14,9 @@ export const sites = [
     mod_img_file_name: "urban_serenity_art.PNG",
   },
   {
-    name: "Indo",
-    text: "lorem ipsum dolor sit amet, consectetur adipis null amet, sed diam nonumy eirmod tempor incididunt ut labore et dol.",
-    js_file_name: "Indo.js",
+    name: "War",
+    text: "Visuals of wars crafting blood from the skies",
+    js_file_name: "Warpath.js",
     og_img_file_name: "krig2_original.jpg",
     mod_img_file_name: "krig2_art.png",
   }
