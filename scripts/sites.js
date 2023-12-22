@@ -6,8 +6,8 @@ export const sites = [
     og_img_file_name:  ---------- HER SKAL DIT ORIGNALE BILLEDE VÆRE----------,
     mod_img_file_name:  ---------- HER SKAL DIT BILLEDE AF KUNSTVÆRKET VÆRE ----------,
   }, */
-
   {
+
     name: "Gadens Øje",
     text: "Gadens Øje er et kunstværk, der træder ind i byrummet som en visuel fortælling og symboliserer et unikt perspektiv på det urbane miljø. Dette imponerende kunstværk udfolder sig på en stor murflade og fremstår som et enestående og nærmest magisk indslag i byens struktur.Værket består af et gigantisk øje, der er omhyggeligt udført med levende farver og realistiske detaljer. Øjet fungerer som et metaforisk vindue ind i sjælen af byen, idet det observerer og registrerer alt, der sker omkring det. Den kunstneriske udførelse af iris og pupille kan variere i farvespil, hvilket tilføjer dybde og kompleksitet til værket.",
     js_file_name: "urban_serenity.js",
@@ -20,5 +20,19 @@ export const sites = [
     js_file_name: "moonshine.js",
     og_img_file_name: "moonshine_original.png",
     mod_img_file_name: "moonshine_art.PNG",
+  },
+  {
+    name: "Breaths",
+    text: "Sophie Dupont, 429 Breaths \n \n Værken '429 Breaths' er en del af serien 'Spatula Breath Paintings', der udtrykker en abstrakt udfoldelse af kunstnerens egen vejrtrækning, idet en dyb indånding går forud for hvert penselstrøg.",
+    js_file_name: "Breaths.js",
+    og_img_file_name: "Breaths_original.jpg",
+    mod_img_file_name: "Breaths_copy.jpg",
+  },
+  {
+    name: "Lysgrafik",
+    text: "Koldt og varmt reflekslys",
+    js_file_name: "lysgrafik.js",
+    og_img_file_name: "lysgrafik_original.jpg",
+    mod_img_file_name: "lysgrafik.PNG",
   },
 ];
