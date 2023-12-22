@@ -14,11 +14,11 @@ export const sites = [
     mod_img_file_name: "urban_serenity_art.PNG",
   },
   {
-    name: "Lysgrafik",
+    name: "Gunnar Aagaard Andersen's Lysgrafik",
     text: "Gunnar Aagaard Andersen, en mester af lys og form, var en banebrydende dansk kunstner, hvis værker fortsætter med at fortrylle og inspirere i dag. Hans eksperimenter med lysgrafik udgør et fængslende kapitel i kunsthistorien. I midten af det 20. århundrede begyndte Andersen at udforske lys som et medium i kunsten. Han greb fat i lyskilden som sin pensel og mesterligt manipulerede det for at skabe betagende visuelle oplevelser. Hans mesterværk, Lysgrafik, er et monument over hans tekniske dygtighed og kunstneriske geni. I dette værk forener Andersen lys og rum på en måde, der forvandler det omgivende miljø. Gennem subtile variationer af lysintensitet, farver og former skaber han en stemning, der er både meditativ og forunderlig. Betragteren drages ind i et skiftende landskab af lys og skygge, hvor kontraster og mønstre danser i en elegant symfoni.",
-    js_file_name: "lysgrafik.js",
-    og_img_file_name: "lysgrafik_original.png",
-    mod_img_file_name: "lysgrafik_art.png",
+    js_file_name: "gunnarAagaardAndersen.js",
+    og_img_file_name: "gunnarAagaardAndersen_original.png",
+    mod_img_file_name: "gunnarAagaardAndersen_art.png",
   },
   {
     name: "Urban Serenity",
