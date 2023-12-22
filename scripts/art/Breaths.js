@@ -6,55 +6,60 @@ let isAnimating = true; // Variable to track the animation state
 let circles = []; // Array to store circle data
 
 function preload() {
-  soundFormats('mp3', 'ogg');
-  sound = loadSound('./assets/sound/Breathing_Sound_Effect.mp3');
+  soundFormats("mp3", "ogg");
+  sound = loadSound("../assets/sound/Breathing_Sound_Effect.mp3");
 }
 
 function setup() {
   c = createCanvas(900, 600);
-  centerCanvas();
-
+  c.parent("canvasContainer");
   // Start the sound loop
   sound.loop();
 }
 
 function draw() {
-    background(255); // White background
-  
-    // Rotate the entire scene 90 degrees to the left
-    translate(width, 0);
-    rotate(HALF_PI);
-  
-    // Draw the left white rectangle
-    fill(255);
-    noStroke();
-    rect(0, 0, height / 2, width);
-  
-    // Draw the right black rectangle
-    fill(0);
-    rect(height / 2, 0, height / 2, width);
-  
-    // Draw the first color (RGB: 222, 184, 135)
-    stroke(222, 184, 135);
-    strokeWeight(80);
-    noFill();
-    rect(0, 0, height, width);
-  
-    // Draw the second color (RGB: 205, 170, 125)
-    stroke(205, 170, 125);
-    rect(0, 0, height, width);
-  
-    // Draw the circles only when animating or paused
-    drawNestedCircles(height / 2, width / 1.5, 4, 300, 90, 40);
-  
-    // Update the angle for animation
-    if (isAnimating) {
-      angle += 0.02;
-    }
+  background(255); // White background
+
+  // Rotate the entire scene 90 degrees to the left
+  translate(width, 0);
+  rotate(HALF_PI);
+
+  // Draw the left white rectangle
+  fill(255);
+  noStroke();
+  rect(0, 0, height / 2, width);
+
+  // Draw the right black rectangle
+  fill(0);
+  rect(height / 2, 0, height / 2, width);
+
+  // Draw the first color (RGB: 222, 184, 135)
+  stroke(222, 184, 135);
+  strokeWeight(80);
+  noFill();
+  rect(0, 0, height, width);
+
+  // Draw the second color (RGB: 205, 170, 125)
+  stroke(205, 170, 125);
+  rect(0, 0, height, width);
+
+  // Draw the circles only when animating or paused
+  drawNestedCircles(height / 2, width / 1.5, 4, 300, 90, 40);
+
+  // Update the angle for animation
+  if (isAnimating) {
+    angle += 0.02;
   }
-  
-  
-function drawNestedCircles(x, y, numCircles, startingDiameter, gap, fourthCircleSize) {
+}
+
+function drawNestedCircles(
+  x,
+  y,
+  numCircles,
+  startingDiameter,
+  gap,
+  fourthCircleSize
+) {
   for (let i = 0; i < numCircles; i++) {
     let currentDiameter;
 
