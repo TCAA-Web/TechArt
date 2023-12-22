@@ -1,4 +1,3 @@
-// Following this tutorial: https://www.youtube.com/watch?v=_gz8FMduwRc
 let imgUrl = "../../assets/urban_serenity_original.jpg";
 let img;
 let p;
