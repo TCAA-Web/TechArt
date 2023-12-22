@@ -5,13 +5,15 @@ let size = 12; // 4 times smaller square size
 let offset = 1;
 let d = 30; // Reduced hover distance
 let img;
+let c;
 
 function preload() {
   img = loadImage('assets/violet(1946)_original.jpg');
 }
 
 function setup() {
-  createCanvas(900, 600);
+  c = createCanvas(900, 600);
+  c.parent('canvasContainer')
   cols = width / size;
   rows = height / size;
   for (let i = 0; i < cols; i++) {
