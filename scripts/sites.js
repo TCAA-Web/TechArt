@@ -76,4 +76,11 @@ export const sites = [
     og_img_file_name: "Hopeful_Snowman.jpg",
     mod_img_file_name: "Hopeful_SnowmanScrn.png",
   },
+  {
+    name: "Violet",
+    text: "Auguste Herbin's masterpiece, crafted in 1946, stands as a poignant exemplar of the abstract art movement that characterized the mid-20th century. Reminiscent of the renowned French artist's oeuvre, this composition mirrors the distinctive style of Auguste Herbin (1882-1960), celebrated for his revolutionary approach to abstract paintings. In the spirit of Herbin's colorful and geometric abstraction, the canvas showcases a harmonious interplay of shapes and figures. Like Herbin, who belonged to a visionary cohort of artists committed to transcending representational boundaries, this work manifests an allegiance to shapes, lines, and colors divorced from external referents. Much like Herbin and his contemporaries, the artist behind this creation endeavors to democratize artistic understanding, inviting viewers of varied circumstances to engage with the piece on their terms. The year 1946, a pivotal moment for Herbin, saw the genesis of his innovative code system – the 'alphabet plastique.' This system intricately wove together colors, shapes, letters of the alphabet, and musical notes, offering a structured framework to his abstract explorations. Drawing inspiration from Goethe's color theory, Herbin's code system becomes a testament to his unyielding pursuit of perfect abstract forms and hues.",
+    js_file_name: "violet_gunnar_art.js",
+    og_img_file_name: "violet(1946)_original.jpg",
+    mod_img_file_name: "violet_gunnar_art.png"
+  }
 ];
