@@ -153,6 +153,7 @@
   grid-area: f1;
   align-items: end;
   justify-content: end;
+  pointer-events: none;
 }
 #footer p {
   margin-right: 32px;

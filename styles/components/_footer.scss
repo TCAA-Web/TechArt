@@ -6,6 +6,7 @@
   grid-area: f1;
   align-items: end;
   justify-content: end;
+  pointer-events: none;
 
   p {
     margin-right: $spacing-large;
