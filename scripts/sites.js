@@ -35,4 +35,11 @@ export const sites = [
     og_img_file_name: "lysgrafik_original.jpg",
     mod_img_file_name: "lysgrafik.PNG",
   },
+  {
+    name: "Fabriksbillede 2.0.5.0 ",
+    text: "Fabriksbillede 2.0.5.0 er et futuristisk kunstværk, der fusionerer new media art og abstrakt konstruktivisme. Stærkt inspireret af Preben Hornungs Fabriksbillede fra 1949, udforsker dette værk samme problemstilling med industri og masseproduktion, med fra nutidens perspektiv og stiller spørgsmålet: Er en bæredygtig industri realistisk og opnåelig? Værket inviterer beskueren til at deltage i skabelsen af en visionær fabrik, men udfordrer opfattelsen af, hvorvidt en fuldstændig grøn fabrik er realistisk, og om skyggerne af forurening vil forblive. Fabriksbillede 2.0.5.0 ansporer beskueren til at reflektere over vores kollektive ansvar for at forme en bæredygtig fremtid. Dette kunstværk er ikke blot et visuelt udtryk; det er en interaktiv samtale om, hvorvidt vi kan opnå et klimaneutralt samfund inden 2050. Gennem kunstens prisme inviteres vi til en dialog om bæredygtighed og miljømæssig bevidsthed.",
+    js_file_name: "Fabriksbillede.js",
+    og_img_file_name: "Fabriksbillede_orginal.jpg",
+    mod_img_file_name: "Fabriksbillede2050.png",
+  },
 ];
