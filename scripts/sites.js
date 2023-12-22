@@ -69,4 +69,11 @@ export const sites = [
     og_img_file_name: "Fabriksbillede_orginal.jpg",
     mod_img_file_name: "Fabriksbillede2050.png",
   },
+  {
+    name: "Hopeful Snowman",
+    text: "En Snemand kigger på en lanterne en kold vinter nat. Lad os håbe den ikke smelter...",
+    js_file_name: "hopeful_snowman.js",
+    og_img_file_name: "Hopeful_Snowman.jpg",
+    mod_img_file_name: "Hopeful_SnowmanScrn.png",
+  },
 ];
