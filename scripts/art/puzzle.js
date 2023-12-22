@@ -4,7 +4,7 @@ let dragging = false;
 let completed = false;
 
 function preload() {
-  img = loadImage('assets/dragon.jpg');
+  img = loadImage('assets/GDragonOrg.jpg');
 }
 
 function setup() {
