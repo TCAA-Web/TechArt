@@ -28,6 +28,14 @@ export const sites = [
     mod_img_file_name: "moonshine_art.PNG",
   },
   {
+
+    name: "War",
+    text: "Visuals of wars crafting havoc from the skies. Erasing visual creates new brightness.",
+    js_file_name: "Warpath.js",
+    og_img_file_name: "krig2_original.jpg",
+    mod_img_file_name: "krig2_art.png",
+  },
+  {
     name: "Breaths",
     text: "Sophie Dupont, 429 Breaths \n \n Værken '429 Breaths' er en del af serien 'Spatula Breath Paintings', der udtrykker en abstrakt udfoldelse af kunstnerens egen vejrtrækning, idet en dyb indånding går forud for hvert penselstrøg.",
     js_file_name: "Breaths.js",
