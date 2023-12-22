@@ -56,11 +56,11 @@ export const sites = [
     mod_img_file_name: "urban_serenity_art.PNG",
   },
   {
-    name: "Urban Serenity",
-    text: "Urban Serenity intricately captures the essence of a bustling city while seamlessly interweaving moments of tranquility within its vibrant composition. \n \n The artist, deeply inspired by the dynamic urban landscape, skillfully merged contrasting elements to evoke a sense of both energy and calm. Using a blend of bold brushstrokes and a diverse palette of acrylics, the artist depicted the city's liveliness with vivid colors and dynamic textures.",
-    js_file_name: "urban_serenity.js",
-    og_img_file_name: "urban_serenity_original.jpg",
-    mod_img_file_name: "urban_serenity_art.PNG",
+    name: "Sankt Georg og dragen",
+    text: "I dette værk skabte den danske kunstner Olaf Rude (1886-1957) et dynamisk motiv bestående af forskellig farvede sektioner. Ifølge sagnet om Sankt Georg, dræbte han en drage der tyranniserede en by og havde taget en prinsesse til fange.I den kristne mytologi var den legendariske prinsesse ensbetydende med kirken. Men Rude har afstået fra at male prinsessen, så motivet handler udelukkende om styrke og mandig tapperhed - de mest almindelige symboler forbundet med Sankt Georg. Olaf Rude var en klassisk modernist, der omkring 1. verdenskrig koncentrerede sig om maleriets formelle effekter i stedet for skildringer af naturen. På dette tidspunkt sigtede malerne ikke længere mod en naturtro repræsentation af virkeligheden, men derimod mod en undersøgelse af form, linje, overflade og farve. Denne tilgang til maleri var et gennembrud i dansk maleri, hvilket omkring 1920 førte til yderligere, betydelige ændringer på Det Kongelige Danske Kunstakademi. Rudes rolle i skabelsen af dette nye billedudtryk gjorde ham til en af de vigtigste kunstnere inden for dansk modernisme. Senere, på grund af hans brug af farver i hans udtryksfulde landskabsmalerier, blev han kendt som 'den danske Matisse'.",
+    js_file_name: "puzzle.js",
+    og_img_file_name: "GDragonOrg.jpg",
+    mod_img_file_name: "GDragonPuzzle.png",
   },
   {
     name: "Urban Serenity",
