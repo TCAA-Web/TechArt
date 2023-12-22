@@ -7,11 +7,11 @@ export const sites = [
     mod_img_file_name: "Breaths_copy.jpg",
   },
   {
-    name: "New ArtWork",
-    text: "New art description here",
-    js_file_name: "urban_serenity.js",
-    og_img_file_name: "urban_serenity_original.jpg",
-    mod_img_file_name: "urban_serenity_art.PNG",
+    name: "Lysgrafik",
+    text: "Koldt og varmt reflekslys",
+    js_file_name: "lysgrafik.js",
+    og_img_file_name: "lysgrafik_original.jpg",
+    mod_img_file_name: "lysgrafik.PNG",
   },
   {
     name: "Urban Serenity",
