@@ -38,7 +38,7 @@ export const sites = [
 		name: "Dansende Sfære",
 		text: "Dansende Sfære er en digital kunstoplevelse, hvor farverige figurer pulserer i dynamisk samspil. Spontane firkanter væver sig mellem strukturerede trapezer og cirkler, mens en levende, grøn sfære udforsker det digitale rum med en konstant bevægelse. Fanlights og fandarks tilføjer kompleksitet, og farver som orange og rød skaber en visuel symfoni. Dette kunstværk indfanger opmærksomheden og inviterer til en unik interaktiv oplevelse, der transcenderer det traditionelle og fejrer den digitale æra.",
 		js_file_name: "dansende_sfære.js",
-		og_img_file_name: "dansende_sfære_copy.png",
+		og_img_file_name: "dansende_sfære_original.png",
 		mod_img_file_name: "dansende_sfære_copy.png",
 	},
 ];
