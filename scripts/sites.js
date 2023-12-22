@@ -15,7 +15,7 @@ export const sites = [
   },
   {
     name: "War",
-    text: "Visuals of wars crafting blood from the skies",
+    text: "Visuals of wars crafting havoc from the skies. Erasing visual creates new brightness.",
     js_file_name: "Warpath.js",
     og_img_file_name: "krig2_original.jpg",
     mod_img_file_name: "krig2_art.png",
