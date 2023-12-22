@@ -1,11 +1,18 @@
 export const sites = [
-  /* {
+	/* {
     name: ---------- HER SKAL DIN TITEL VÆRE----------
     text: ---------- HER SKAL DIN TEKST VÆRE----------,
     js_file_name: ---------- HER SKAL DIN P5 FIL VÆRE ----------,
     og_img_file_name:  ---------- HER SKAL DIT ORIGNALE BILLEDE VÆRE----------,
     mod_img_file_name:  ---------- HER SKAL DIT BILLEDE AF KUNSTVÆRKET VÆRE ----------,
   }, */
+	{
+		name: "Dansende Sfære",
+		text: "Dansende Sfære er en digital kunstoplevelse, hvor farverige figurer pulserer i dynamisk samspil. Spontane firkanter væver sig mellem strukturerede trapezer og cirkler, mens en levende, grøn sfære udforsker det digitale rum med en konstant bevægelse. Fanlights og fandarks tilføjer kompleksitet, og farver som orange og rød skaber en visuel symfoni. Dette kunstværk indfanger opmærksomheden og inviterer til en unik interaktiv oplevelse, der transcenderer det traditionelle og fejrer den digitale æra.",
+		js_file_name: "dansende_sfære.js",
+		og_img_file_name: "dansende_sfære_copy.png",
+		mod_img_file_name: "dansende_sfære_copy.png",
+	},
   {
     name: "Gadens Øje",
     text: "Gadens Øje er et kunstværk, der træder ind i byrummet som en visuel fortælling og symboliserer et unikt perspektiv på det urbane miljø. Dette imponerende kunstværk udfolder sig på en stor murflade og fremstår som et enestående og nærmest magisk indslag i byens struktur.Værket består af et gigantisk øje, der er omhyggeligt udført med levende farver og realistiske detaljer. Øjet fungerer som et metaforisk vindue ind i sjælen af byen, idet det observerer og registrerer alt, der sker omkring det. Den kunstneriske udførelse af iris og pupille kan variere i farvespil, hvilket tilføjer dybde og kompleksitet til værket.",
