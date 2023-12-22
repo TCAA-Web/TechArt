@@ -1,10 +1,10 @@
 export const sites = [
   {
-    name: "Urban Serenity",
-    text: "Urban Serenity intricately captures the essence of a bustling city while seamlessly interweaving moments of tranquility within its vibrant composition. \n \n The artist, deeply inspired by the dynamic urban landscape, skillfully merged contrasting elements to evoke a sense of both energy and calm. Using a blend of bold brushstrokes and a diverse palette of acrylics, the artist depicted the city's liveliness with vivid colors and dynamic textures.",
-    js_file_name: "urban_serenity.js",
-    og_img_file_name: "urban_serenity_original.jpg",
-    mod_img_file_name: "urban_serenity_art.PNG",
+    name: "Breaths",
+    text: "Sophie Dupont, 429 Breaths \n \n Værken '429 Breaths' er en del af serien 'Spatula Breath Paintings', der udtrykker en abstrakt udfoldelse af kunstnerens egen vejrtrækning, idet en dyb indånding går forud for hvert penselstrøg.",
+    js_file_name: "Breaths.js",
+    og_img_file_name: "Breaths_original.jpg",
+    mod_img_file_name: "Breaths_copy.jpg",
   },
   {
     name: "Lysgrafik",
